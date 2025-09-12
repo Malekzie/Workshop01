@@ -1,0 +1,9 @@
+.vacationcard {
+  border: 1px solid;
+  border-radius: 15px;
+  background-color: rgb(250, 254, 255);
+}
+.button {
+  display: flex;
+  justify-content: center;
+}

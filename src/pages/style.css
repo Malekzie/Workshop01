@@ -1,9 +1,32 @@
 .vacationcard {
   border: 1px solid;
+  margin: 1%;
   border-radius: 15px;
   background-color: rgb(250, 254, 255);
 }
 .button {
   display: flex;
   justify-content: center;
+  align-items: flex-end;
+}
+.vacationcard h3 {
+  display: flex;
+  justify-content: center;
+}
+.vacationcard .star-rating {
+  display: flex;
+  justify-content: center;
+}
+.card-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sale-text {
+  text-decoration: line-through;
+  color: rgb(158, 153, 153);
+}
+.under-photo {
+  display: grid;
+  align-content: space-between;
 }

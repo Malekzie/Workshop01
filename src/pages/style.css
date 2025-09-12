@@ -1,6 +1,6 @@
 .vacationcard {
   border: 1px solid;
-  margin: 1%;
+  margin: 1.5%;
   border-radius: 15px;
   background-color: rgb(250, 254, 255);
 }
@@ -26,7 +26,6 @@
   text-decoration: line-through;
   color: rgb(158, 153, 153);
 }
-.under-photo {
-  display: grid;
-  align-content: space-between;
+.container img {
+  border-radius: 15px;
 }

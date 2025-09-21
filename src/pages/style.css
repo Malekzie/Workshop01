@@ -1,8 +1,17 @@
+.packages-background {
+  background: linear-gradient(
+    to right,
+    rgb(201, 223, 223),
+    rgb(172, 212, 212),
+    rgb(164, 189, 239)
+  );
+}
 .vacationcard {
-  border: 1px solid;
+  border: 2px solid gray;
   margin: 1.5%;
   border-radius: 15px;
-  background-color: rgb(250, 254, 255);
+  background-color: rgb(192, 226, 235);
+  background: linear-gradient(130deg, rgb(229, 231, 232), rgb(172, 211, 222));
 }
 .button {
   display: flex;

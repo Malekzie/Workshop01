@@ -13,11 +13,6 @@
       integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
       crossorigin="anonymous"
     />
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-      crossorigin="anonymous"
-    ></script>
   </head>
   <body>
     <div class="container">
@@ -87,9 +82,9 @@
       </nav>
     </div>
     <!-- main -->
-    <div class="container pt-5">
+    <div class="container-fluid packages-background pt-5">
       <div class="pt-5 d-flex justify-content-center">
-        <h1>Top Vacation Packages</h1>
+        <h1 class="fw-bold">Top Vacation Packages</h1>
       </div>
 
       <div
@@ -110,14 +105,18 @@
             <h3 class="fs-2 text-body-emphasis fw-semibold">
               Bahamas Resort and Spa
             </h3>
-            <p class="star-rating flex-wrap fs-5">4.5/5 stars</p>
+            <p class="star-rating flex-wrap fs-5">4.5/5 Stars</p>
             <div class="card-info">
-              <p class="fw-bold">Located in Nassau, Bahamas</p>
+              <div>
+                <p class="fw-bold">Located in Nassau, Bahamas</p>
+                <p class="fw-semibold text-muted mt">(14 nights)</p>
+              </div>
               <div>
                 <p class="sale-text">$2,953</p>
                 <p class="fw-bold">$2,498</p>
               </div>
             </div>
+
             <p class="flex-wrap">
               Enjoy the stunning views from this resort only walking distance
               from the beach! This all-inclusive comes with a spa and three
@@ -146,9 +145,12 @@
             <h3 class="fs-2 text-body-emphasis fw-semibold">
               Rocky Mountain Lodges
             </h3>
-            <p class="star-rating flex-wrap fs-5">4/5 stars</p>
+            <p class="star-rating flex-wrap fs-5">4/5 Stars</p>
             <div class="card-info">
-              <p class="fw-bold">Located in Banff, Canada</p>
+              <div>
+                <p class="fw-bold">Located in Banff, Canada</p>
+                <p class="fw-semibold text-muted">(12 nights)</p>
+              </div>
               <div>
                 <p class="sale-text">$1,934</p>
                 <p class="fw-bold">$1,623</p>
@@ -181,9 +183,12 @@
             <h3 class="fs-2 text-body-emphasis fw-semibold">
               Explore Thailand
             </h3>
-            <p class="star-rating flex-wrap fs-5">4/5 stars</p>
+            <p class="star-rating flex-wrap fs-5">4/5 Stars</p>
             <div class="card-info">
-              <p class="fw-bold">Located in Phi Phi Islands, Thailand</p>
+              <div>
+                <p class="fw-bold">Located in Phi Phi Islands, Thailand</p>
+                <p class="fw-semibold text-muted">(16 nights)</p>
+              </div>
               <div>
                 <p class="sale-text">$3,143</p>
                 <p class="fw-bold">$2,798</p>
@@ -218,7 +223,10 @@
             </h3>
             <p class="star-rating flex-wrap fs-5">3.5/5 Stars</p>
             <div class="card-info">
-              <p class="fw-bold">Located in Cancun, Mexico</p>
+              <div>
+                <p class="fw-bold">Located in Cancun, Mexico</p>
+                <p class="fw-semibold text-muted">(14 nights)</p>
+              </div>
               <div>
                 <p class="sale-text">$2,932</p>
                 <p class="fw-bold">$2,466</p>
@@ -294,5 +302,10 @@
         </div>
       </div>
     </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

@@ -1,0 +1,11 @@
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 20px;
+}
+.register-card {
+  display: flex;
+  background-color: lightgrey;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}

@@ -1,11 +1,80 @@
 .main {
+  background: #104cb4;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.form-container {
+  background-color: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.6);
+  width: 100vh;
+}
+
+.form-title {
+  text-align: center;
+  color: #2c428b;
+  font-weight: 700;
+  position: relative;
+}
+
+.form-float {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.form-control {
+  border: none;
+  border-bottom: 2px solid #ccc;
+  border-radius: 0;
+  padding-left: 8px;
+}
+
+.form-control:focus {
+  box-shadow: none;
+}
+
+.form-label {
   display: flex;
   justify-content: center;
-  align-items: center;
-  padding: 80px 20px;
+  font-size: 1rem;
+  font-weight: 700;
 }
-.register-card {
-  display: flex;
-  background-color: lightgrey;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+
+.form-underline {
+  position: relative;
+  bottom: 2px;
+  left: 0;
+  height: 2px;
+  width: 0;
+  background-color: #2575fc;
+  transition: width 0.3s ease;
+}
+
+.form-control:focus ~ .form-underline {
+  width: 100%;
+}
+
+.btn-submit {
+  background: #2575fc;
+  border: none;
+  border-radius: 50px;
+  padding: 12px 30px;
+  color: white;
+  font-weight: 600;
+  width: 100%;
+  margin-top: 10px;
+  box-shadow: 0 4px 15px rgba(106, 17, 203, 0.4);
+}
+
+.btn-submit:hover {
+  background: #2575fc;
+  color: white;
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(106, 17, 203, 0.7);
 }

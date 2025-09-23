@@ -13,6 +13,10 @@
   background-color: rgb(192, 226, 235);
   background: linear-gradient(130deg, rgb(73, 114, 230), rgb(255, 255, 255));
 }
+.vacationcard:hover {
+  transform: scale(1.02);
+  transition: transform 2 ease-in-out;
+}
 .button {
   display: flex;
   justify-content: center;

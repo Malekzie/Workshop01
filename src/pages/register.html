@@ -86,7 +86,7 @@
         <p class="text-center mb-5 fw-lighter">
           Please fill out our form to create an account with us.
         </p>
-        <form action="" method="post">
+        <form action="./bouncer.php" method="post">
           <div class="row">
             <div class="form-float col-md-6">
               <input
@@ -177,6 +177,34 @@
               </select>
               <div class="form-underline"></div>
               <label class="form-label" for="country">Country</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="form-group col-md-6 mb-2">
+              <input
+                class="form-control"
+                type="tel"
+                id="phone"
+                name="phone"
+                placeholder="123-456-7890"
+                pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+              />
+              <div class="form-underline"></div>
+              <label class="form-label" for="phone">Home Phone Number</label>
+            </div>
+            <div class="form-group col-md-6 mb-2">
+              <input
+                class="form-control"
+                type="tel"
+                id="businessphone"
+                name="businessphone"
+                placeholder="123-456-7890"
+                pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+              />
+              <div class="form-underline"></div>
+              <label class="form-label" for="businessphone"
+                >Business Phone Number</label
+              >
             </div>
           </div>
           <div class="row">

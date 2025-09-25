@@ -11,7 +11,7 @@
   margin: 1.5%;
   border-radius: 15px;
   background-color: rgb(192, 226, 235);
-  background: linear-gradient(130deg, rgb(73, 114, 230), rgb(255, 255, 255));
+  background: linear-gradient(130deg, rgb(173, 192, 241), rgb(255, 255, 255));
 }
 .vacationcard:hover {
   transform: scale(1.02);
